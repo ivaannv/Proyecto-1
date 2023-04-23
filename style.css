@@ -1,13 +1,7 @@
 .ivo-bk{
-    background-color:rgba(0, 0, 0, 0.706)
+    background-color:rgba(47, 47, 47, 0.712)
 }
 
 body{
     background-image: url('img/burger.jpg');  
    }
-
-ul li a {
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-     
-}
