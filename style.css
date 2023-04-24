@@ -62,13 +62,45 @@ body{
 }
     
 .sucursales.bk{
-    background-color: black;
+    background-color: black; 
 }
 
 .map-conteiner h1{
     background-color: black;
     color: white;
     text-align: center;  
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.direccion-bk{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media screen and (max-width:352px){
+    .map{
+        width: 300px; 
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:700px){
+    .map{
+        width:400px ;
+        height: 300px;
+    }
+
 }
 
 
+@media screen and (min-width:1021px){
+    .map{
+        width:600px ;
+        height: 500px;
+
+    }
+}
