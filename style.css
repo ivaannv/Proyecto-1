@@ -64,3 +64,10 @@ body{
 .sucursales.bk{
     background-color: black;
 }
+
+.map-conteiner h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
