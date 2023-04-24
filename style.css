@@ -46,7 +46,7 @@ body{
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 0;
+    bottom:0;
     width: 100%;
 }
 
@@ -110,5 +110,92 @@ body{
     color: white;
     font-weight: 400;
     text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 
+}
+
+.menu-conteiner{
+    background-color: rgba(0, 0, 0, 0.585);  
+}
+
+.burger-1{
+    border: solid rgb(255, 132, 0) 2px;
+    width: auto;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 700;
+}
+.burger-1 p{
+    margin-left: 10px;
+    background-color: rgba(255, 127, 80, 0.408);
+}
+
+.burger-2{
+    margin-top: 2px;
+    border: solid rgb(255, 132, 0) 2px;
+    width: auto; 
+    margin-left: 10px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: 700;
+}
+.burger-2 p{
+    margin-right: 10px;
+    background-color: rgba(255, 127, 80, 0.408);
+}
+
+.burger-3{
+    margin-top: 2px;
+    border: solid rgb(255, 132, 0) 2px;
+    width: auto; 
+    margin-left: 10px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 700;
+}
+.burger-3 p{
+    margin-left: 10px;
+    background-color: rgba(255, 127, 80, 0.408);
+}
+
+
+.burger-4{
+    margin-top: 2px;
+    border: solid rgb(255, 132, 0) 2px;
+    width: auto; 
+    margin-left: 10px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: 700;
+}
+.burger-4 p{
+    margin-right: 10px;
+    background-color: rgba(255, 127, 80, 0.408);
+}
+
+.footer-conteiner-menu{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
 }
