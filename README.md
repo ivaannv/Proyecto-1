@@ -1,5 +1,5 @@
 # Proyecto-1
-h1 align="center">Hi 👋, I'm Ivan vaghi</h1>
+<h1 align="center">Hi 👋, I'm Ivan vaghi</h1>
 <h3 align="center">Desarrollador web de Argentina</h3>
 
 - 📫 How to reach me **ivaanvaghii@gmail.com**
