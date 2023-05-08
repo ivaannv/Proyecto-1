@@ -1,0 +1,54 @@
+@import "../base/variables";
+.sucursales.bk{
+    background-color:$bg-fondos; 
+}
+
+.map-conteiner {
+    h1{
+    background-color:$bg-fondos;
+    color: $color-font;
+    text-align: center;  
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    }
+}
+
+.direccion-bk{
+    background-color: $bg-fondos;
+    color:$color-font;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.horario{
+    background-color: $bg-fondos;
+    color:$color-font;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width:352px){
+    .map{
+        width: 300px; 
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:700px){
+    .map{
+        width:400px ;
+        height: 300px;
+    }
+
+}
+
+
+@media screen and (min-width:1021px){
+    .map{
+        width:600px ;
+        height: 500px;
+
+    }
+}

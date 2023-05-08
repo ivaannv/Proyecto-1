@@ -1,0 +1,18 @@
+.footer-conteiner-menu{
+    background-color: $bg-fondos;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+}
+@media screen and (max-width:513px){
+    .footer-conteiner-menu{
+        background-color: $bg-fondos;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}

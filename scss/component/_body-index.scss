@@ -1,0 +1,29 @@
+@import "../base/variables";
+body{
+
+    background-image: url(../img/burger.jpg);
+}
+
+.title{
+    color:$bg-fondos;
+    background-color:$bg-fondos-hover;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px; 
+    margin-bottom: 0;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+.parrafo-title{
+    margin-top: 0;
+    background-color: $bg-fondos;
+    color:$color-font;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}

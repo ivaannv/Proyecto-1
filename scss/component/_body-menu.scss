@@ -1,0 +1,116 @@
+@import "../base/variables";
+.title-menu{
+    background-color: $bg-fondos;
+    color: $color-font;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.menu-conteiner{
+    background-color: rgba(0, 0, 0, 0.894);  
+}
+
+.burger-1{
+    border: solid $color-bordes 2px;
+    width: auto;
+    margin-left: 10px;
+    color: $color-font;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 700;
+}
+.burger-1 {
+    p{
+    margin-left: 10px;
+    background-color: $color-fondo-imagenes;
+    }   
+}
+
+.burger-2{
+    margin-top: 2px;
+    border: solid $color-bordes 2px;
+    width: auto; 
+    margin-left: 10px;
+    color:$color-font;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: 700;
+}
+.burger-2 {
+    p{
+    margin-right: 10px;
+    background-color: $color-fondo-imagenes;
+    }
+}
+
+.burger-3{
+    margin-top: 2px;
+    border: solid $color-bordes 2px;
+    width: auto; 
+    margin-left: 10px;
+    color: $color-font;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 700;
+}
+.burger-3 {
+    p{
+    margin-left: 10px;
+    background-color: $color-fondo-imagenes;
+    }
+}
+
+
+.burger-4{
+    margin-top: 2px;
+    border: solid $color-bordes 2px;
+    width: auto; 
+    margin-left: 10px;
+    color: $color-font;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: 700;
+}
+.burger-4 {
+    p{
+        margin-right: 10px;
+        background-color: $color-fondo-imagenes;
+    }
+    
+}
+
+@media screen and (max-width:513px){
+    .burger-1 img{
+        width:80px ;
+    }
+}
+@media screen and (max-width:513px){
+    .burger-2 img{
+        width:80px ;
+    }
+}
+@media screen and (max-width:513px){
+    .burger-3 img{
+        width:80px ;
+    }
+}
+@media screen and (max-width:513px){
+    .burger-4 img{
+        width:80px ;
+    }
+}
