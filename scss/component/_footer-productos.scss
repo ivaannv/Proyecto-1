@@ -13,14 +13,14 @@ footer{
 
 
 
-.footer-conteiner-menu{
+.footer-conteiner-productos{
     background-color: $bg-fondos;
     display: flex;
     justify-content: center;
     width: 100%;
 }
 @media screen and (max-width:513px){
-    .footer-conteiner-menu{
+    .footer-conteiner-productos{
         background-color: $bg-fondos;
         display: flex;
         justify-content: center;

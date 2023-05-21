@@ -2,10 +2,6 @@
   background-color: rgba(77, 77, 77, 0.398);
 }
 
-.navbar-toggler{
-  background-color: white;
-}
-
 .nav-link {
   color: white;
   font-family: "Cabin", sans-serif;
@@ -15,6 +11,10 @@
 
 .nav-link:hover {
   color: rgb(255, 106, 0);
+}
+
+.navbar-toggler {
+  background-color: white;
 }
 
 .footer-conteiner {
@@ -220,12 +220,24 @@ body {
     width: 80px;
   }
 }
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
 .footer-conteiner-menu {
   background-color: black;
   display: flex;
   justify-content: center;
-  position: absolute;
-  bottom: auto;
   width: 100%;
 }
 
@@ -234,8 +246,6 @@ body {
     background-color: black;
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 0;
     width: 100%;
   }
 }
@@ -349,6 +359,35 @@ body {
 @media screen and (max-width: 513px) {
   .Plancheta-smasher img {
     width: 80px;
+  }
+}
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.footer-conteiner-productos {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 513px) {
+  .footer-conteiner-productos {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }
 
