@@ -17,12 +17,24 @@
   background-color: white;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
 .footer-conteiner {
   background-color: black;
   display: flex;
   justify-content: center;
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 
@@ -39,6 +51,8 @@
 
 body {
   background-image: url(../img/burger.jpg);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .title {
@@ -317,13 +331,13 @@ footer {
   font-family: "Cabin", sans-serif;
   font-family: "Nunito Sans", sans-serif;
   display: flex;
-  justify-content: right;
+  justify-content: left;
   align-items: center;
   font-weight: 700;
 }
 
 .smasher p {
-  margin-right: 10px;
+  margin-left: 10px;
   background-color: rgba(255, 127, 80, 0.408);
 }
 
@@ -348,7 +362,8 @@ footer {
 
 @media screen and (max-width: 513px) {
   .smasher-espatula img {
-    width: 80px;
+    width: 120px;
+    height: 80px;
   }
 }
 @media screen and (max-width: 513px) {

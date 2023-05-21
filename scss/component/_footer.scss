@@ -1,11 +1,22 @@
 @import "../base/variables";
 
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+footer{
+    margin-top: auto;
+}
+
 .footer-conteiner{
     background-color:$bg-fondos;
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom:0;
     width: 100%;
 }
 

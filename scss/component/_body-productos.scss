@@ -35,13 +35,13 @@
     font-family: 'Cabin', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
     font-weight: 700;
 }
 .smasher {
     p{
-    margin-right: 10px;
+    margin-left: 10px;
     background-color: $color-fondo-imagenes;}
 }
 
@@ -67,7 +67,8 @@
 
 @media screen and (max-width:513px){
         .smasher-espatula img{
-            width:80px ;
+            width:120px ;
+            height:80px;
         }
     }
 @media screen and (max-width:513px){
